@@ -4,6 +4,7 @@ import time
 import datetime
 
 # Known information
+
 known_plaintext = bytes.fromhex("255044462d312e350a25d0d4c5d80a34")
 known_ciphertext = bytes.fromhex("d06bf9d0dab8e8ef880660d2af65aa82")
 known_iv = bytes.fromhex("09080706050403020100A2B2C2D2E2F2")
